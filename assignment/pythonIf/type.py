@@ -6,4 +6,3 @@ print(type(userInput))
 
 print(type(userInput2))
 
-print(type(userInput3))
