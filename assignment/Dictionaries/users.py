@@ -15,7 +15,20 @@ for keys in users.keys():
         
 
 
-print(usernames)
-print(names)
-print(ages)
-print(poisons)
+print("usernames: ", usernames)
+print("names: ", names)
+print("ages: ",ages)
+print("poisons: ",poisons)
+
+#taking the above list and arranging it in order
+
+print("\nAfter arranging in order: \n")
+
+usernames.sort()
+names.sort()
+ages.sort()
+poisons.sort()
+print("usernames ",usernames)
+print("names", names)
+print("ages: ", ages)
+print("poisons: ", poisons)
