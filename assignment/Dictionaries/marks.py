@@ -6,7 +6,7 @@ report = {
 lowestMarks = min(report["Marks"])
 index = report["Marks"].index(lowestMarks)
 
-#delete the key-value (students:marks) pairs with lowest marks
+#deleting the key-value (students:marks) pairs with lowest marks
 del report["Students"][index]
 del report["Marks"][index]
 
