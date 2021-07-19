@@ -13,7 +13,7 @@ def matrixMultiplication(matrix1, matrix2):
 
     for i in range(len(matrix1)): #runs the loop for the number of rows
         row = []
-        for j in range(len(matrix2[0])): #runs the loop for the number of columns
+        for j in range(len(matrix2[0])): 
             product = 0
             for k in range(len(matrix1[i])):
                 product += matrix1[i][k] * matrix2[k][j]
