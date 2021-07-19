@@ -1,8 +1,8 @@
 Students = ["jack", "jill", "david", "silva", "ronaldo"]
 Marks = [55, 56, 57, 66, 76]
 report = {
-    "Students": Students,
-    "Marks": Marks
+    "students": Students,
+    "marks": Marks
 }
 
 lowestMarks = min(report["Marks"])
