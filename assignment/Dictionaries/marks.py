@@ -5,11 +5,11 @@ report = {
     "marks": Marks
 }
 
-lowestMarks = min(report["Marks"])
-index = report["Marks"].index(lowestMarks)
+lowestMarks = min(report["marks"])
+index = report["marks"].index(lowestMarks)
 
 #deleting the key-value (students:marks) pairs with lowest marks
-del report["Students"][index]
-del report["Marks"][index]
+del report["students"][index]
+del report["marks"][index]
 
 print(report)
