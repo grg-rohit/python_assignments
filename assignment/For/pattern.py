@@ -1,9 +1,51 @@
 rows = 6
-# Outer loop will print number of rows  
+
 for i in range(0,rows+1):  
-# Inner loop will print number of Astrisk  
+
   for j in range(i):  
-    print("FF", end = "")  
-  print("F") 
+    print("F", end = "")  
+  for j in range(i-1, 0, -1):
+    print('F', end = "")
+  print()
+
+"""
+final = 0
+
+initial = 1
+
+for i in range(1,10):
+
+  for j in range(0,initial):
+
+    print("F",end='')
+
+  temporary = final
+
+  previous = initial
+
+  initial = initial + temporary
+
+  print('')
+
+  """
+
+prev = 0
+
+curr = 1
+
+for i in range(1,10):
+
+  for j in range(0,curr):
+
+    print("F",end='')
+
+  temp = prev
+
+  prev = curr
+
+  curr = curr + temp
+
+  print('')
+
 
 
