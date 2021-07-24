@@ -4,11 +4,15 @@ userChoice = input("Enter the name of a book: ")
 
 path = userChoice + ".txt"
 try:
-    with open(path) as book_obj:
-        contents = book_obj.read()
-        print(contents)
+    with open(path, 'r') as book:
+        first_line = book.readline()
+        print(first_line)
+        book.close()
+    
 except FileNotFoundError:
-    msg = "Sorry, the book " + userChoice + "is not available in the library."
+    msg = "Sorry, the book " + userChoice + " is not available in the library."
     print(msg)
+
+
 
     
