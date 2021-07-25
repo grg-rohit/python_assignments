@@ -7,5 +7,4 @@ B = [[1, 2, 3], [11, 12, 13]]
 result = np.multiply(A, B)
 
 
-
 print(result)
