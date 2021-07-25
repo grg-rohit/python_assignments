@@ -1,5 +1,5 @@
 import numpy as np
-a = np.array([[10,40],[30,20]])
+a = np.array([[10,20],[15,2]])
 print("Original array:")
 print(a)
 print("Sort the array along the first axis:")
